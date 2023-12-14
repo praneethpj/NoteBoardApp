@@ -20,3 +20,10 @@ This is a MERN stack application with Socket.io for real-time document updates a
 cd frontend
 npm install
 npm start
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run serve
