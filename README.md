@@ -1,4 +1,4 @@
-# NoteBoardApp
+# Note Board App
 
 ![NoteBoardApp](https://github.com/praneethpj/NoteBoardApp/assets/21212214/4e0e9885-e830-499c-b28f-639340aab337)
 
@@ -20,10 +20,11 @@ This is a MERN stack application with Socket.io for real-time document updates a
 cd frontend
 npm install
 npm start
-
+```
 ### Backend
 
 ```bash
 cd backend
 npm install
 npm run serve
+```
