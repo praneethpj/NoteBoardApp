@@ -2,14 +2,14 @@
   padding: 10px;
   text-align: left;
   list-style-type: none;
- 
+  padding-left: 20px;
 }
 
 .menu > li {
   display: inline-block;
   position: relative;
   padding: 10px;
- 
+  list-style-type: none;
   cursor: pointer;  
 }
 
@@ -23,10 +23,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
   transition: display 0.3s ease;  
   background-color: white;
-  width: 150px;
+  width: 200px;
   list-style-type: none;
   text-align: left;
- 
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 .submenu.visible {
@@ -38,6 +39,7 @@
 .subsubmenu > li {
   text-align: left;
   padding: 10px;
+  list-style-type: none;
 }
 
 .subsubmenu {
@@ -49,9 +51,31 @@
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
   transition: display 0.3s ease; 
-  width: 150px;
+  width: 200px;
+  padding-left: 1%;
+
 }
 
 .subsubmenu.visible {
   display: block;  
 }
+.menu > li > ul > li > svg,
+.subsubmenu > li > svg {
+  color: gray; 
+  margin-right: 5px;
+}
+.menu > li:hover,
+.submenu > li:hover,
+.subsubmenu > li > svg ,
+.subsubmenu > li:hover {
+  background-color: lightgray;
+  color: black !important;
+}
+
+.menu-separator {
+  border-bottom: 1px solid #ccc; 
+}
+.menu > li:last-child {
+  border-bottom: none; 
+}
+

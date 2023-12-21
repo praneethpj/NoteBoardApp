@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
 import '../styles/document.css';
-import { FaFile } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaBoxOpen, FaCopy, FaDownload, FaFile, FaLongArrowAltRight, FaMailBulk, FaPlay, FaShare } from "react-icons/fa";
 
 const socket = io(process.env.REACT_APP_SOCKET_URL);
 
@@ -55,17 +55,23 @@ function TypingDocument() {
             File
             <ul className={`submenu ${submenu1Visibility ? 'visible' : ''}`}>
               <li onMouseEnter={toggleSubsubmenu1}>
-                <FaFile/>New
+                <FaFile/>New  <FaPlay size={8} style={{paddingLeft:'50%'}}/>
                 <ul className={`subsubmenu ${subsubmenu1Visibility ? 'visible' : ''}`}>
-                  <li>Sub-Sub Item 1.1.1</li>
-                  <li>Sub-Sub Item 1.1.2</li>
+                  <li>Document</li>
+                  <li>From template from gallery</li>
                 </ul>
               </li>
-              <li>Open</li>
-              <li>Make a Copy</li>
+              <li> <FaBoxOpen/> Open </li>
+              <li class="menu-item menu-separator"><FaCopy/> Make a Copy</li>
+              <li class="menu-item "><FaShare/>Share</li>
+              <li class="menu-item "><FaMailBulk/>Email</li>
+              <li class="menu-item menu-separator"><FaDownload/>Download</li>
+              <li class="menu-item"><FaCopy/> Rename</li>
             </ul>
           </li>
-          <li>Main Item 2</li>
+          
+       
+            <li class="menu-item">Menu Item 3</li>
         </ul>
       </div>
       <div className="app-container">
