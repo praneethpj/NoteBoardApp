@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.menu {
+  padding: 10px;
+  text-align: left;
+  list-style-type: none;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu > li {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+ 
+  cursor: pointer;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+  transition: display 0.3s ease;  
+  background-color: white;
+  width: 150px;
+  list-style-type: none;
+  text-align: left;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submenu.visible {
+  display: block;  
 }
 
-.App-link {
-  color: #61dafb;
+ 
+.submenu > li,
+.subsubmenu > li {
+  text-align: left;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subsubmenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border: 1px solid #ccc; 
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+  transition: display 0.3s ease; 
+  width: 150px;
+}
+
+.subsubmenu.visible {
+  display: block;  
 }
