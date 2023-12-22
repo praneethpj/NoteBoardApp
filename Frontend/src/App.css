@@ -40,12 +40,13 @@
   text-align: left;
   padding: 10px;
   list-style-type: none;
+  height: 20px;
 }
 
 .subsubmenu {
   display: none;
-  position: absolute;
-  top: 0;
+  position: relative;
+  bottom: 160%;
   left: 100%;
   border: 1px solid #ccc; 
   background-color: white;
@@ -71,6 +72,7 @@
   background-color: lightgray;
   color: black !important;
 }
+
 
 .menu-separator {
   border-bottom: 1px solid #ccc; 
