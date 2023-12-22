@@ -2,7 +2,7 @@
 
 ![NoteBoardApp](https://github.com/praneethpj/NoteBoardApp/assets/21212214/4e0e9885-e830-499c-b28f-639340aab337)
 
-![Screenshot](FrontEnd/1.png)
+![Screenshot](https://github.com/praneethpj/NoteBoardApp/blob/master/Frontend/1.png)
 
 ## Description
 
