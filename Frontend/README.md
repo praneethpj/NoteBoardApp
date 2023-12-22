@@ -1,7 +1,7 @@
 # Not Board App
 It includes Websocket based real-time document creation.
 
-![Screenshot](1.png)
+![Screenshot](2.png)
 
 ### Prerequisites
 
