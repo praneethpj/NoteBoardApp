@@ -26,7 +26,7 @@
   width: 200px;
   list-style-type: none;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 1px;
   font-size: 14px;
 }
 
@@ -38,7 +38,7 @@
 .submenu > li,
 .subsubmenu > li {
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   list-style-type: none;
   height: 20px;
 }

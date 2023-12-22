@@ -1,13 +1,8 @@
- 
 import './App.css';
- 
- 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
 import TypingDocument from './ui/typing-document';
  
  
-
-
 function App() {
 
 	return (
