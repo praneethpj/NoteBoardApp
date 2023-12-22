@@ -2,6 +2,8 @@
 
 ![NoteBoardApp](https://github.com/praneethpj/NoteBoardApp/assets/21212214/4e0e9885-e830-499c-b28f-639340aab337)
 
+![Screenshot](FrontEnd/1.png)
+
 ## Description
 
 This is a MERN stack application with Socket.io for real-time document updates and saving on MongoDB. The application allows users to collaborate on documents in real-time.
